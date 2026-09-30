@@ -1,0 +1,750 @@
+<!DOCTYPE html><html class="dark" lang="pt-BR"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;family=Hanken+Grotesk:ital,wght@0,300..900;1,300..900&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "tertiary-fixed-dim": "#edc064", "error-container": "#93000a", "surface-container-low": "#191c21", "error": "#ffb4ab", "surface-dim": "#101418", "secondary-fixed-dim": "#4edea3", "on-secondary": "#003824", "surface-tint": "#fabc4d", "primary-container": "#e5a93c", "primary": "#ffc665", "on-primary-fixed": "#281900", "surface-container-lowest": "#0b0e13", "surface-bright": "#36393f", "inverse-surface": "#e1e2e9", "on-primary": "#432c00", "on-tertiary-container": "#5b4200", "on-primary-fixed-variant": "#604100", "surface-variant": "#32353a", "surface-container": "#1d2025", "on-background": "#e1e2e9", "surface-container-high": "#272a2f", "inverse-on-surface": "#2e3036", "on-tertiary-fixed-variant": "#5c4300", "on-primary-container": "#5e4000", "on-tertiary": "#402d00", "on-secondary-fixed": "#002113", "on-error": "#690005", "surface": "#101418", "on-secondary-container": "#00311f", "inverse-primary": "#7e5700", "secondary": "#4edea3", "background": "#101418", "outline-variant": "#504535", "tertiary-fixed": "#ffdea1", "on-error-container": "#ffdad6", "secondary-container": "#00a572", "on-tertiary-fixed": "#261900", "tertiary": "#f6c96c", "on-surface-variant": "#d4c4b0", "on-surface": "#e1e2e9", "tertiary-container": "#d9ae54", "primary-fixed-dim": "#fabc4d", "secondary-fixed": "#6ffbbe", "primary-fixed": "#ffdead", "surface-container-highest": "#32353a", "outline": "#9d8f7c", "on-secondary-fixed-variant": "#005236" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-lg": "1.5rem", "space-md": "1rem", "space-xl": "2.5rem", "space-xs": "0.25rem", "margin": "3rem", "space-sm": "0.5rem", "margin-mobile": "1.25rem", "gutter": "1.5rem", "gutter-mobile": "1rem" }, "fontFamily": { "title-md": [ "Hanken Grotesk" ], "body-lg": [ "Hanken Grotesk" ], "label-lg": [ "Hanken Grotesk" ], "display-lg-mobile": [ "Bodoni Moda" ], "headline-md": [ "Hanken Grotesk" ], "display-lg": [ "Bodoni Moda" ], "label-md": [ "Hanken Grotesk" ], "headline-lg": [ "Bodoni Moda" ], "headline-lg-mobile": [ "Bodoni Moda" ], "body-md": [ "Hanken Grotesk" ], "headline-sm": [ "Hanken Grotesk" ], "label-sm": [ "Hanken Grotesk" ] }, "fontSize": { "title-md": [ "18px", { "lineHeight": "26px", "letterSpacing": "0.01em", "fontWeight": "500" } ], "body-lg": [ "16px", { "lineHeight": "26px", "letterSpacing": "0em", "fontWeight": "400" } ], "label-lg": [ "14px", { "lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600" } ], "display-lg-mobile": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "headline-md": [ "24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "display-lg": [ "56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "600" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "600" } ], "headline-lg": [ "40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "headline-lg-mobile": [ "28px", { "lineHeight": "36px", "letterSpacing": "0em", "fontWeight": "600" } ], "body-md": [ "14px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400" } ], "headline-sm": [ "20px", { "lineHeight": "28px", "letterSpacing": "0em", "fontWeight": "600" } ], "label-sm": [ "10px", { "lineHeight": "14px", "letterSpacing": "0.1em", "fontWeight": "600" } ] } } } };</script></head><body class="bg-surface font-body-md text-body-md text-on-surface"><header class="fixed top-0 left-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_4px_30px_rgba(0,0,0,0.5)]"><div class="h-20 max-w-[1280px] mx-auto px-gutter flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><a class="flex items-center gap-space-sm group" href="#inicio"><div class="p-[2px] rounded-full bg-gradient-to-tr from-primary to-surface-variant"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1WXte7nzgw6MWunXM0JlwOqL4sPbAkhHQAaUBevX-WFBtXcc7VoT948mA1legeZRdTvQhEH-SGqaqbFdre9weHmJLfhi9lndWgndcg-sYOqPnfY0IC5AmxkThReMOwRdbZ-j-1fsSzE1INu28NCr9P39EYADCj7vIc6nF1nk_4IMJ_tUIcIUSudfq-CMTEBG-XCGou23nJ93bar7I22M9Yf4FdptVnYbGG4mvZe8oFcKgyo-mlfOILxUf5F1gMRGA4XXy8Ro1OJ"></div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface group-hover:text-primary transition-colors">FILIPE SANTOS</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">Barbearia Executiva</span></div></a><div class="hidden xl:flex items-center gap-2 pl-space-md ml-space-sm"><span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span><span class="font-label-md text-label-md text-secondary">Aberto Hoje até às 20h</span></div></div><div class="flex items-center gap-space-md shrink-0"><a class="inline-flex items-center gap-space-sm px-space-md py-space-sm rounded-lg bg-secondary-container text-on-secondary-container hover:bg-secondary hover:text-on-secondary font-label-lg text-label-lg tracking-wide uppercase transition-all shadow-[0_4px_16px_rgba(0,165,114,0.3)]" href="https://wa.me/5583998896913" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px]">chat</span><span class="hidden sm:inline">(83) 99889-6913</span></a></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- HERO SECTION -->
+<section class="relative w-full overflow-hidden bg-surface py-space-xl lg:py-24" id="inicio">
+<!-- Ambient Backdrop Light -->
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[700px] h-[350px] bg-primary/10 rounded-full blur-[120px] pointer-events-none"></div>
+<div class="max-w-[1280px] mx-auto px-gutter relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Left Content -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<!-- Google 5.0 Badge -->
+<div class="inline-flex items-center gap-space-sm w-fit px-space-md py-1.5 rounded-full bg-surface-container-high shadow-sm">
+<span class="text-primary flex items-center gap-1 font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold text-on-surface">5.0</span>
+</span>
+<span class="w-1 h-1 rounded-full bg-outline"></span>
+<span class="font-label-md text-label-md text-on-surface-variant">Classificação Máxima no Google • João Pessoa, PB</span>
+</div>
+<!-- Main Title -->
+<h1 class="font-display-lg text-display-lg text-on-surface tracking-tight leading-none">
+            O Padrão de Excelência em Estilo Masculino em João Pessoa
+          </h1>
+<!-- Subtitle -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+            Cortes modernos, barboterapia relaxante com toalha quente e cuidados masculinos de alto nível no coração da Torre. Um refúgio executivo projetado para seu bem-estar e máxima precisão.
+          </p>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-sm">
+<a class="inline-flex items-center justify-center gap-space-sm px-space-lg py-3.5 rounded-lg bg-primary hover:bg-tertiary-fixed text-on-primary font-label-lg text-label-lg uppercase tracking-wider shadow-lg transition-transform hover:-translate-y-0.5 active:translate-y-0" href="https://wa.me/5583998896913?text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20hor%C3%A1rio%20na%20Barbearia%20Filipe%20Santos" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">calendar_today</span>
+<span class="">Agendar pelo WhatsApp</span>
+</a>
+<a class="inline-flex items-center justify-center gap-space-sm px-space-lg py-3.5 rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-primary font-label-lg text-label-lg uppercase tracking-wider transition-colors" href="#servicos">
+<span class="material-symbols-outlined text-[20px]">content_cut</span>
+<span class="">Ver Tabela de Serviços</span>
+</a>
+</div>
+<!-- Live Status Micro-card -->
+<div class="flex items-center gap-space-md pt-space-sm">
+<div class="flex -space-x-2 overflow-hidden">
+<span class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-surface-container text-primary font-label-md text-label-md">FS</span>
+<span class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-surface-container text-secondary font-label-md text-label-md">MB</span>
+<span class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-surface-container text-tertiary font-label-md text-label-md">MM</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">3 Barbeiros Especialistas em Turno</span>
+<span class="font-body-md text-body-md text-secondary">Atendimento por ordem e agendamento VIP</span>
+</div>
+</div>
+</div>
+<!-- Right Visual Showcase / Photo Mosaic -->
+<div class="lg:col-span-5 relative">
+<div class="relative grid grid-cols-12 gap-3">
+<!-- Main Ambient Image -->
+<div class="col-span-12 rounded-xl overflow-hidden shadow-2xl bg-surface-container-high relative group">
+<img alt="Atendimento de corte e acabamento profissional na Barbearia Filipe Santos" class="w-full h-80 object-cover object-top transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDaOYZ2Zw_9_GzNnaNszrpmxiFKAhPAUMUgRd3f4RzTvdEFY4VLZ85Hwd2w9_ns4tWmdRczbQnLWGsJKfkoO1XPLkcK7d3VT7FTtfh4U8TKzmdFA2LqlcFuCr-RcfEeCjT0V6Pi2PyXc9RaP1G0ViW9k5Gum0F3ryMQaAfHD7n6MvLB3uaE7ZnpWL9ZmoJm1UELiJwLjHVXid5oGy7O2L4mkifluCZ2kgsFNvOYW_5DBValqjjw-d6lgmx5OfzwYl_b1w">
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/90 via-surface-container-lowest/20 to-transparent flex items-end p-space-md">
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">Ambiente Seleto</span>
+<p class="font-title-md text-title-md text-on-surface">Conforto com ar-condicionado e tijolos rústicos</p>
+</div>
+</div>
+</div>
+<!-- Overlapping Detail 1: Barboterapia -->
+<div class="col-span-7 rounded-xl overflow-hidden shadow-xl bg-surface-container -mt-6 relative z-20 group">
+<img alt="Barboterapia com toalha quente e massagem facial" class="w-full h-44 object-cover object-center transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4wsxds92gsGs-6O6V3yQnURvVh-PQqdX2AUlmyrRb1DNqllq_tTdBOTMGGsHGADEwkfPrHM9yZi-qBvIXeKhhIQ_hlDImxzlGlCcdVBcPFFkPF849fFB-_5AV1tlAaDDWzpESZsgfME9tma3MjaUIsGHKV0R9lpwGerl_Z-aIi3zcpTiamYECMpH6RiZVfhIlxaM0-2m9gaZmrlvulDYawbPY-0uSPtE-WwbJc9Bi1r2g-aEuIbANY7YXRjE2Gt7_qA">
+<div class="absolute bottom-2 left-3 bg-surface-container-lowest/80 backdrop-blur px-2.5 py-1 rounded">
+<span class="font-label-sm text-label-sm text-primary">Barboterapia VIP</span>
+</div>
+</div>
+<!-- Overlapping Detail 2: Street Location / Entrance -->
+<div class="col-span-5 rounded-xl overflow-hidden shadow-xl bg-surface-container -mt-6 relative z-20 group">
+<img alt="Barber Pole tradicional e iluminação da barbearia" class="w-full h-44 object-cover object-center transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZhui6XL8QlAXJDzAedRK4SpHfvBJtQsEdH2Uppbyd_xQ0v8PUXwyb2Yby0irVVwTzHIKHO9UA_0a1W0XMehPP8ON-NPRpKXJZ8ohfJHoqhaPzyGDgsmyknOugaqq81ahzB8O1MtyP24pjrLNqWH9L7yQKCv6op4NGOzrl4vKPIGkIkXfNcMOS3AUzlVcL-WipxZs3uoJsqT6pU2aV6phlrLY0DV5Hzk2DIMgjp8o5RJYAZ_9o3vMT4z7-5bKzP-do6A">
+<div class="absolute bottom-2 left-2 bg-surface-container-lowest/80 backdrop-blur px-2 py-1 rounded">
+<span class="font-label-sm text-label-sm text-secondary">Av. Rui Barbosa</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- STATS & DIFFERENTIALS SECTION -->
+<section class="w-full bg-surface-container-low py-space-xl">
+<div class="max-w-[1280px] mx-auto px-gutter">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Card 1 -->
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col gap-space-xs shadow-md transition-all hover:-translate-y-1">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-primary mb-space-xs">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">stars</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary">5.0 Estrelas</span>
+<span class="font-title-md text-title-md text-on-surface">Nota Máxima no Google</span>
+<p class="font-body-md text-body-md text-on-surface-variant">Centenas de cavalheiros recomendam nossa dedicação e padrão consistente.</p>
+</div>
+<!-- Card 2 -->
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col gap-space-xs shadow-md transition-all hover:-translate-y-1">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-primary mb-space-xs">
+<span class="material-symbols-outlined text-[28px]">ac_unit</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary">Espaço Executive</span>
+<span class="font-title-md text-title-md text-on-surface">Climatizado e Conexão VIP</span>
+<p class="font-body-md text-body-md text-on-surface-variant">Ambiente 100% refrigerado, Wi-Fi veloz, TV e cerveja artesanal trincando.</p>
+</div>
+<!-- Card 3 -->
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col gap-space-xs shadow-md transition-all hover:-translate-y-1">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-primary mb-space-xs">
+<span class="material-symbols-outlined text-[28px]">local_parking</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary">Acesso Fácil</span>
+<span class="font-title-md text-title-md text-on-surface">Estacionamento na Porta</span>
+<p class="font-body-md text-body-md text-on-surface-variant">Vagas diretas na Av. Rui Barbosa para sua comodidade total sem perda de tempo.</p>
+</div>
+<!-- Card 4 -->
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col gap-space-xs shadow-md transition-all hover:-translate-y-1">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-primary mb-space-xs">
+<span class="material-symbols-outlined text-[28px]">face</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary">Visagismo</span>
+<span class="font-title-md text-title-md text-on-surface">Mestres Barbeiros</span>
+<p class="font-body-md text-body-md text-on-surface-variant">Consultoria estética que valoriza a geometria do seu rosto e sua personalidade.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- SERVICES & PRICES SECTION -->
+<section class="w-full bg-surface py-20 relative" id="servicos">
+<div class="max-w-[1280px] mx-auto px-gutter flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">Menu de Procedimentos</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Serviços &amp; Combos Exclusivos</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+            Valores transparentes e cronometragem precisa. Escolha o serviço ideal e reserve sua cadeira pelo WhatsApp com confirmação instantânea.
+          </p>
+</div>
+<a class="inline-flex items-center gap-space-sm px-space-md py-space-sm rounded-lg bg-surface-container-high text-primary hover:bg-primary hover:text-on-primary font-label-lg text-label-lg uppercase tracking-wider transition-colors shrink-0" href="https://wa.me/5583998896913?text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20Combo%20Completo" target="_blank">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span class="">Combo Mais Pedido</span>
+</a>
+</div>
+<!-- Services Grid: Cortes & Combos Populares -->
+<div>
+<div class="flex items-center gap-space-sm mb-space-md">
+<span class="material-symbols-outlined text-primary text-[20px]">content_cut</span>
+<h3 class="font-title-md text-title-md uppercase tracking-wider text-on-surface">Cortes &amp; Combos Mais Solicitados</h3>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<!-- Card 1 -->
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col justify-between gap-space-md shadow-md transition-all hover:bg-surface-container-high">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-on-surface">Corte Tradicional / Degradê</span>
+<span class="font-headline-sm text-headline-sm text-primary">R$ 40,00</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Corte na tesoura ou máquina com acabamento milimétrico, navalhado e higienização.</p>
+<div class="flex items-center gap-space-xs text-on-surface-variant mt- space-xs font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-outline">timer</span>
+<span class="">30 min de duração</span>
+</div>
+</div>
+<a class="w-full py-2.5 rounded-lg bg-surface-container-highest hover:bg-primary hover:text-on-primary text-primary font-label-md text-label-md uppercase tracking-wider text-center transition-colors" href="https://wa.me/5583998896913?text=Ol%C3%A1,%20gostaria%20de%20agendar%20o%20Corte%20Tradicional%20(R$%2040)" target="_blank">
+              Agendar este Horário
+            </a>
+</div>
+<!-- Card 2 (Popular Combo) -->
+<div class="p-space-lg rounded-xl bg-surface-container-high relative flex flex-col justify-between gap-space-md shadow-lg transition-all hover:-translate-y-1">
+<div class="absolute -top-3 right-4 bg-primary text-on-primary font-label-sm text-label-sm uppercase px-space-sm py-0.5 rounded shadow">
+              Mais Escolhido
+            </div>
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-on-surface">Corte + Barba</span>
+<span class="font-headline-sm text-headline-sm text-primary">R$ 70,00</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">A combinação essencial do cavalheiro moderno com toalha quente e finalização com balm premium.</p>
+<div class="flex items-center gap-space-xs text-on-surface-variant mt- space-xs font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-outline">timer</span>
+<span class="">60 min de duração</span>
+</div>
+</div>
+<a class="w-full py-2.5 rounded-lg bg-primary hover:bg-tertiary-fixed text-on-primary font-label-md text-label-md uppercase tracking-wider text-center transition-colors font-semibold" href="https://wa.me/5583998896913?text=Ol%C3%A1,%20gostaria%20de%20agendar%20o%20combo%20Corte%20+%20Barba%20(R$%2070)" target="_blank">
+              Agendar no WhatsApp
+            </a>
+</div>
+<!-- Card 3 -->
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col justify-between gap-space-md shadow-md transition-all hover:bg-surface-container-high">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-on-surface">Corte + Barba + Sobrancelha</span>
+<span class="font-headline-sm text-headline-sm text-primary">R$ 80,00</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Alinhamento completo da moldura facial com design de sobrancelha na lâmina ou pinça.</p>
+<div class="flex items-center gap-space-xs text-on-surface-variant mt- space-xs font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-outline">timer</span>
+<span class="">60 min de duração</span>
+</div>
+</div>
+<a class="w-full py-2.5 rounded-lg bg-surface-container-highest hover:bg-primary hover:text-on-primary text-primary font-label-md text-label-md uppercase tracking-wider text-center transition-colors" href="https://wa.me/5583998896913?text=Ol%C3%A1,%20gostaria%20de%20agendar%20Corte%20+%20Barba%20+%20Sobrancelha%20(R$%2080)" target="_blank">
+              Agendar este Horário
+            </a>
+</div>
+<!-- Card 4 -->
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col justify-between gap-space-md shadow-md transition-all hover:bg-surface-container-high">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-on-surface">Corte + Barba + Pigmentação</span>
+<span class="font-headline-sm text-headline-sm text-primary">R$ 100,00</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Preenchimento de falhas capilares e alinhamento de barba com pigmento especial de alta definição.</p>
+<div class="flex items-center gap-space-xs text-on-surface-variant mt- space-xs font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-outline">timer</span>
+<span class="">100 min de duração</span>
+</div>
+</div>
+<a class="w-full py-2.5 rounded-lg bg-surface-container-highest hover:bg-primary hover:text-on-primary text-primary font-label-md text-label-md uppercase tracking-wider text-center transition-colors" href="https://wa.me/5583998896913?text=Ol%C3%A1,%20gostaria%20de%20agendar%20Corte%20+%20Barba%20+%20Pigmenta%C3%A7%C3%A3o%20(R$%20100)" target="_blank">
+              Agendar este Horário
+            </a>
+</div>
+<!-- Card 5 -->
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col justify-between gap-space-md shadow-md transition-all hover:bg-surface-container-high">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-on-surface">Combo Executivo Completo</span>
+<span class="font-headline-sm text-headline-sm text-primary">R$ 155,00</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Corte estilizado + Barboterapia + Selagem antifrizz + Sobrancelha de alta definição.</p>
+<div class="flex items-center gap-space-xs text-on-surface-variant mt- space-xs font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-outline">timer</span>
+<span class="">90 min de duração</span>
+</div>
+</div>
+<a class="w-full py-2.5 rounded-lg bg-surface-container-highest hover:bg-primary hover:text-on-primary text-primary font-label-md text-label-md uppercase tracking-wider text-center transition-colors" href="https://wa.me/5583998896913?text=Ol%C3%A1,%20gostaria%20de%20agendar%20o%20Combo%20Executivo%20Completo%20(R$%20155)" target="_blank">
+              Agendar este Horário
+            </a>
+</div>
+<!-- Card 6 -->
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col justify-between gap-space-md shadow-md transition-all hover:bg-surface-container-high">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-on-surface">Corte Infantil</span>
+<span class="font-headline-sm text-headline-sm text-primary">R$ 40,00</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Atendimento paciente, descontraído e carinhoso para meninos de todas as idades.</p>
+<div class="flex items-center gap-space-xs text-on-surface-variant mt- space-xs font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-outline">timer</span>
+<span class="">30 min de duração</span>
+</div>
+</div>
+<a class="w-full py-2.5 rounded-lg bg-surface-container-highest hover:bg-primary hover:text-on-primary text-primary font-label-md text-label-md uppercase tracking-wider text-center transition-colors" href="https://wa.me/5583998896913?text=Ol%C3%A1,%20gostaria%20de%20agendar%20o%20Corte%20Infantil%20(R$%2040)" target="_blank">
+              Agendar este Horário
+            </a>
+</div>
+</div>
+</div>
+<!-- Barboterapia & Cuidados Especiais (Split with Photo) -->
+<div class="mt-space-md grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center bg-surface-container-low p-space-lg lg:p-space-xl rounded-2xl">
+<div class="lg:col-span-5 rounded-xl overflow-hidden shadow-2xl relative">
+<img alt="Mestre barbeiro aplicando toalha quente e cuidados de barba" class="w-full h-96 object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-acPntQdKxFMa7KD6TI-FaG6_KjOC_4DZivDI46NdoHsjatmGbpdTuyrNYLsECTTMg4pYOwDWdZK8SRL8Q4ogqPPXybp1nt9gTTjOZEVZuKszApVU4VcsHyk9_JXtBVNpsWIBeJchxEdntU9W2NsAQRbrnCCiNqYsruQjCKLGAb3afNgjVG3w4ortVHLC_zGu2edin2lP5heeluMXvyNEUMRmwUqK_WNhwNz_1iOuv_P6jDAdei_RNGBN6sXFZR7WEQ">
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent flex flex-col justify-end p-space-md">
+<span class="font-label-sm text-label-sm text-primary uppercase">Ritual Exclusivo</span>
+<p class="font-title-md text-title-md text-on-surface">Barboterapia com Toalha Térmica e Óleos Essenciais</p>
+</div>
+</div>
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[22px]">spa</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">Barboterapia &amp; Tratamentos Especiais</h3>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="p-space-md rounded-lg bg-surface-container flex flex-col gap-1">
+<div class="flex justify-between items-center">
+<span class="font-title-md text-title-md text-on-surface">Barba Clássica</span>
+<span class="font-label-lg text-label-lg text-primary">R$ 40,00</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Toalha quente, navalhete descartável e hidratação.</p>
+<span class="font-label-sm text-label-sm text-outline">30 min</span>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container flex flex-col gap-1">
+<div class="flex justify-between items-center">
+<span class="font-title-md text-title-md text-on-surface">Barba Express</span>
+<span class="font-label-lg text-label-lg text-primary">R$ 30,00</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Alinhamento rápido para o dia a dia corporativo.</p>
+<span class="font-label-sm text-label-sm text-outline">10 min</span>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container flex flex-col gap-1">
+<div class="flex justify-between items-center">
+<span class="font-title-md text-title-md text-on-surface">Selagem Capilar</span>
+<span class="font-label-lg text-label-lg text-primary">R$ 115,00</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Alinhamento dos fios, redução de volume e brilho.</p>
+<span class="font-label-sm text-label-sm text-outline">60 min</span>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container flex flex-col gap-1">
+<div class="flex justify-between items-center">
+<span class="font-title-md text-title-md text-on-surface">Platinado / Nevou</span>
+<span class="font-label-lg text-label-lg text-primary">R$ 160,00</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Descoloração profissional com proteção capilar.</p>
+<span class="font-label-sm text-label-sm text-outline">180 min</span>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container flex flex-col gap-1">
+<div class="flex justify-between items-center">
+<span class="font-title-md text-title-md text-on-surface">Limpeza de Pele</span>
+<span class="font-label-lg text-label-lg text-primary">R$ 45,00</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Remoção de cravos, esfoliação facial e tonificação.</p>
+<span class="font-label-sm text-label-sm text-outline">20 min</span>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container flex flex-col gap-1">
+<div class="flex justify-between items-center">
+<span class="font-title-md text-title-md text-on-surface">Consultoria Visagista</span>
+<span class="font-label-lg text-label-lg text-primary">R$ 500,00</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Estudo facial com Filipe Santos para imagem executiva.</p>
+<span class="font-label-sm text-label-sm text-outline">110 min</span>
+</div>
+</div>
+<div class="pt-space-xs">
+<a class="inline-flex items-center gap-space-sm px-space-lg py-3 rounded-lg bg-primary hover:bg-tertiary-fixed text-on-primary font-label-lg text-label-lg uppercase tracking-wider transition-colors shadow" href="https://wa.me/5583998896913?text=Ol%C3%A1,%20gostaria%20de%20consultar%20os%20servi%C3%A7os%20de%20barboterapia%20e%20tratamentos" target="_blank">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span class="">Personalizar Meu Atendimento</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- BARBERS TEAM SECTION -->
+<section class="w-full bg-surface-container-lowest py-20" id="equipe">
+<div class="max-w-[1280px] mx-auto px-gutter flex flex-col gap-space-xl">
+<div class="text-center max-w-2xl mx-auto flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">Profissionais Dedicados</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Mestres Barbeiros</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Uma equipe treinada no mais alto padrão de atendimento, visagismo e técnicas de corte contemporâneas.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Barber 1: Filipe Santos -->
+<div class="rounded-2xl bg-surface-container p-space-lg flex flex-col justify-between gap-space-md shadow-xl hover:-translate-y-1 transition-all">
+<div class="flex flex-col gap-space-md">
+<div class="w-full overflow-hidden rounded-xl bg-surface-container-high p-2 flex items-center justify-center">
+<img alt="Filipe Santos - Fundador e Mestre Barbeiro" class="w-full h-auto object-contain max-h-24" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUb0qcOzD-_3MxJcjrFFBw-C2kmapHLRHIIWaM2VJb4a61WloLpBIPWVLLUMNfun4dV0eX5h10jkNutGLu7oz-LYXLt8V1yhZkw_24RJlPRsphelqAkI3un1YCWKnFDMaqxUgxttPBBSs1IOMpZ0v5cY9hgpd0fq_GXD4Ocptu2VTLyxBxHUK_T8F4MzgQMPZgmFXvWiol5Z8KoTka_B8U_R4KdzBqmULFMGLdgXzd4dCiBSIEM0hopyLFfj-AmB5N2w">
+</div>
+<div class="flex flex-col">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Filipe Santos</h3>
+<span class="px-2 py-0.5 rounded bg-primary/20 text-primary font-label-sm text-label-sm">Fundador</span>
+</div>
+<span class="font-label-md text-label-md text-primary mt-1">Especialista Visagista</span>
+<p class="font-body-md text-body-md text-on-surface-variant mt- space-xs">
+                Pioneiro no conceito executivo na Torre. Especialista em geometria facial, visagismo estratégico e técnicas avançadas de tesoura.
+              </p>
+</div>
+</div>
+<a class="w-full py-2.5 rounded-lg bg-surface-container-high hover:bg-primary hover:text-on-primary text-primary font-label-md text-label-md uppercase tracking-wider text-center transition-colors" href="https://wa.me/5583998896913?text=Ol%C3%A1,%20gostaria%20de%20agendar%20com%20o%20Filipe%20Santos" target="_blank">
+            Agendar com Filipe
+          </a>
+</div>
+<!-- Barber 2: Moisés -->
+<div class="rounded-2xl bg-surface-container p-space-lg flex flex-col justify-between gap-space-md shadow-xl hover:-translate-y-1 transition-all">
+<div class="flex flex-col gap-space-md">
+<div class="w-full overflow-hidden rounded-xl bg-surface-container-high p-2 flex items-center justify-center">
+<img alt="Moisés - Barbeiro Especialista em Cortes" class="w-full h-auto object-contain max-h-24" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIz66p6iIpvvQmSnN-PfIVfx4QyHssS_RZUaWmBcEKtmCb5HDmHYYoAhuPLKgkzdVubfu8aBHvtDFcmq1RObEeO6Wy9XbLVyMYs3Wm_HAQhBjmrzn0UEtJyudbxRt6NNqLU6B2bnSyxlDBBcEAfQ28tCL9jq873V0P2xrMc1CsNJ0bP2PvY9aie4zMQJ9ZoefrkHlRud8nl1odGZvFX9FSPBJyM_1b5zu924GcUi9Ikwjyi0hjhjUq9DS6jMkSmxZcBQ">
+</div>
+<div class="flex flex-col">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Moisés</h3>
+<span class="px-2 py-0.5 rounded bg-secondary/20 text-secondary font-label-sm text-label-sm">Profissional</span>
+</div>
+<span class="font-label-md text-label-md text-primary mt-1">Especialista em Tendências</span>
+<p class="font-body-md text-body-md text-on-surface-variant mt- space-xs">
+                Referência em degradês limpos (fades), texturizações modernas e finalizações despojadas com precisão impecável.
+              </p>
+</div>
+</div>
+<a class="w-full py-2.5 rounded-lg bg-surface-container-high hover:bg-primary hover:text-on-primary text-primary font-label-md text-label-md uppercase tracking-wider text-center transition-colors" href="https://wa.me/5583998896913?text=Ol%C3%A1,%20gostaria%20de%20agendar%20com%20o%20Mois%C3%A9s" target="_blank">
+            Agendar com Moisés
+          </a>
+</div>
+<!-- Barber 3: Miklyel Marciel -->
+<div class="rounded-2xl bg-surface-container p-space-lg flex flex-col justify-between gap-space-md shadow-xl hover:-translate-y-1 transition-all">
+<div class="flex flex-col gap-space-md">
+<div class="w-full overflow-hidden rounded-xl bg-surface-container-high p-2 flex items-center justify-center">
+<img alt="Miklyel Marciel - Barbeiro Especialista em Barba e Acabamento" class="w-full h-auto object-contain max-h-24" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFYnqYWu-EwkM8Gjf2LnF4B8mkPIzAtcrvbb2gJtNT6J4u8SUweYIJcqFulV3LQzo-llrLXqKrMN23-wG6Qcm3TFML8sMlbcsZq64nqwscX_EP5HZ_VF6xEqZ6vGcEmVSGfm6f6l2ZWrTqWXKXQA-n0I8xH-t4vtfsTaVtcY0JaeNnUT14Z_Qcj_AXLQ_TUDJOvAAt5hEySOPmwmOyi9YYbgagJWnfetaMysTdMzDjduLdI4i8Hwrw1U64c7-l9TBhUA">
+</div>
+<div class="flex flex-col">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Miklyel Marciel</h3>
+<span class="px-2 py-0.5 rounded bg-tertiary/20 text-tertiary font-label-sm text-label-sm">Profissional</span>
+</div>
+<span class="font-label-md text-label-md text-primary mt-1">Mestre em Barboterapia</span>
+<p class="font-body-md text-body-md text-on-surface-variant mt- space-xs">
+                Domínio absoluto da lâmina, contornos alinhados, hidratação profunda e atendimento atencioso para seu momento de descanso.
+              </p>
+</div>
+</div>
+<a class="w-full py-2.5 rounded-lg bg-surface-container-high hover:bg-primary hover:text-on-primary text-primary font-label-md text-label-md uppercase tracking-wider text-center transition-colors" href="https://wa.me/5583998896913?text=Ol%C3%A1,%20gostaria%20de%20agendar%20com%20o%20Miklyel" target="_blank">
+            Agendar com Miklyel
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- AMBIANCE & GALLERY SECTION -->
+<section class="w-full bg-surface py-20" id="espaco">
+<div class="max-w-[1280px] mx-auto px-gutter flex flex-col gap-space-xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">Estrutura &amp; Conforto</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">O Salão &amp; Experiência</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+            Projetado nos mínimos detalhes para que cada minuto seja prazeroso: iluminação acolhedora, cadeiras reclináveis em couro macio e estética loft nova-iorquina.
+          </p>
+</div>
+<!-- Amenities Quick Bar -->
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-surface-container text-on-surface font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-primary">wifi</span> Wi-Fi Ultra
+          </span>
+<span class="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-surface-container text-on-surface font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-primary">coffee</span> Café Gourmet
+          </span>
+<span class="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-surface-container text-on-surface font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-primary">sports_bar</span> Bebidas Geladas
+          </span>
+<span class="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-surface-container text-on-surface font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-primary">accessible</span> Acessível
+          </span>
+</div>
+</div>
+<!-- High-End Bento Image Grid -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-md">
+<!-- Big Feature (Panorâmica do Salão com Cadeiras) -->
+<div class="md:col-span-8 rounded-2xl overflow-hidden bg-surface-container-high group relative min-h-[340px]">
+<img alt="Visão panorâmica da Barbearia Filipe Santos com estações de corte e iluminação estilosa" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDiUhildzXOS4vIex1yRb1izn98uS3HhyE0s99_Pp4hC6d24HwYSe2p1ESlt_iPuDjYtkAI-Ld7ta7Cldi-vSVuUOT2SdGBqj5n2CDOQBK0f6QupAg8b1fgOihB3SBSrfK564N-VUKGhrTgKkLDkFWQmjYJwtzcuOCNlmZtoUioXQWW4x3tzg8TCgzgyok0ailqEt3RhZre_uEEeDKZOHT2GW5SF0J2VeoJQu-rMH9Ac36wtf2y8bk-4kRGRWh7b1Zc9A">
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent flex items-end p-space-lg">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Estações de Corte Profissionais</span>
+<p class="font-body-md text-body-md text-on-surface-variant">Poltronas ergonômicas, espelhos amplos e iluminação de precisão para cortes perfeitos.</p>
+</div>
+</div>
+</div>
+<!-- Vertical Accent 1 (Cadeira & Detalhes) -->
+<div class="md:col-span-4 rounded-2xl overflow-hidden bg-surface-container-high group relative min-h-[340px]">
+<img alt="Cadeiras de barbeiro clássicas em couro com espelhos retroiluminados" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAw1c-N47428LiKoCZbA0WUSoUyC7rTP-Lms8Yd1g2o-vNFMBZ8iX6TGDzNWiIrS3mmNK9W0OkrBrnS8fkgVvMNb6wx2go0iQFUL92fHV6RX5iQPQtiBVZ-pGAHtWJIX7j__fAbLfQ9W78fvCNPI5J4b_yejhugYb0w-iHbK7dPxOWF2goJS7I1D08Qhnpgs3-9FSUOt7Cmm9fEnSCMXMj5ZhlXgnkm7M7-_TfQBBz4pVEVOfshGJjcmamgCAPzPprOgw">
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent flex items-end p-space-md">
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface">Conforto em Couro</span>
+<span class="font-label-sm text-label-sm text-primary">Estilo Clássico Executivo</span>
+</div>
+</div>
+</div>
+<!-- Lower Accent 1 (Atendimento Barba) -->
+<div class="md:col-span-4 rounded-2xl overflow-hidden bg-surface-container-high group relative min-h-[260px]">
+<img alt="Cliente relaxando durante procedimento com toalha morna" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1-1jtx8ZjI4oa6j4nan-AMv4vHn3paBo1RYKjJY9cHgnGdACAfqw7p9xMEer5486ZEPwiEg0WCk6cONYX9HWDH12bb5CoK3YR4OoiCTdaaPISqBgEijHBLfaa9TBBDRqcFkOm1-D1-8wbi-QBZGf7jrPg1fNNIxw8HPcnIVBLcryiCDg_Z-vdTd_2HUjp_9kChX_qgh8sFbwfkn3iPCnABjgev8S9nj0XJR_IFP572PO7pPUhk03Qq82V644wtKn23w">
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent flex items-end p-space-md">
+<span class="font-title-md text-title-md text-on-surface">Momento de Relaxamento</span>
+</div>
+</div>
+<!-- Lower Accent 2 (Espaço Interno / Detalhes de Tijolo) -->
+<div class="md:col-span-4 rounded-2xl overflow-hidden bg-surface-container-high group relative min-h-[260px]">
+<img alt="Parede de tijolos rústicos com decoração moderna e luminárias quentes" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAF7Ovl-a9-RmKhTPprf_0LSRH6fW7gLo4T6bH531oAOJOhHqGsCW2C-FFHvCmFERIHVbaIQxkU0Pc_8K8_Ps66S3zxazyvT7nAcZu6YhQ4SMFzuVFlAgCzDfijuo_-QcKk_O-sJNY6f-ShlhBVvJ9rUz0lt6NZyZloSIABCF_oh5REkx3Y3-G4iGUpIiP2rWWL0fjFFC18F7pm-vlF1h8APRDM3l6wVuTYn385-ZeJqcbAupFvADCK60N54dqS2L0dcg">
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent flex items-end p-space-md">
+<span class="font-title-md text-title-md text-on-surface">Decoração Rústica &amp; Industrial</span>
+</div>
+</div>
+<!-- Lower Accent 3 (Barber Pole Luminoso) -->
+<div class="md:col-span-4 rounded-2xl overflow-hidden bg-surface-container-high group relative min-h-[260px]">
+<img alt="Poste clássico Barber Pole giratório iluminado na parede de tijolo" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5HXE18c1qg88DLzn6IQukz_dD9JnuNqr2QxCh0cjtTwfKKEaj3GSG7f_NjhD9Grv1-D9XR60XRqBq6C9CBw6_iA6yxe9mCJbP12E_cfMN4HnojzErEFRTmNaLBwFODqq4se2fX-vfGfrTX9nsX3N7o2WjwI0E_IZjJr_CTIrWe6P9ikYd4yQVzB7IhA0Br_cJkgE8xjfmkEgcUXMpBjzo7r-766DzwnJH1j8v7OIDVNUmBlWacm5wbiKbyiu8EOwyrQ">
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent flex items-end p-space-md">
+<span class="font-title-md text-title-md text-on-surface">Tradição &amp; Autenticidade</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- GOOGLE REVIEWS SECTION (⭐ 5.0) -->
+<section class="w-full bg-surface-container-low py-20" id="avaliacoes">
+<div class="max-w-[1280px] mx-auto px-gutter flex flex-col gap-space-xl">
+<!-- Section Header with Official Rating Badge -->
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-md bg-surface-container p-space-lg rounded-2xl shadow-md">
+<div class="flex items-center gap-space-md">
+<div class="w-16 h-16 rounded-xl bg-surface-container-highest flex items-center justify-center p-2 shrink-0">
+<img alt="Selo de 5.0 estrelas da Barbearia Filipe Santos no Google" class="w-full h-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMpn7R-ERaxRZda9EPOqzTWgEebWXI2uUBIeeaATfQUVisVpPcFCkxgRldbEGRGvrrVWePfXG0bsUO9PYeUgGpJ3K0YoZMx1aM3OqAtOOLG8FBVyw2Er-GkRcdwXkI2v1r1263Qm2UsOxv9kVFqhtiOcTtBjEUbzsxfiB_NQvspSFIUUcvXLivDEBXwDx0IGKUbWYFxw9GJPx7NaJVmQsgdmPOpydYWJbbZ3Imd9jo-K9CieoqsekPDxq4eu06gBiDSA">
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-headline-md text-headline-md text-on-surface">5.0</span>
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<span class="font-title-md text-title-md text-on-surface font-semibold">Classificação Máxima no Google Avaliações</span>
+<span class="font-body-md text-body-md text-on-surface-variant">Baseado em mais de 100 avaliações verificadas de clientes de João Pessoa</span>
+</div>
+</div>
+<a class="inline-flex items-center gap-space-sm px-space-md py-space-sm rounded-lg bg-surface-container-high hover:bg-surface-bright text-primary font-label-md text-label-md uppercase tracking-wider transition-colors" href="https://maps.google.com/?q=Barbearia+Filipe+Santos+Joao+Pessoa" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">open_in_new</span>
+<span class="">Ver Todas as Avaliações</span>
+</a>
+</div>
+<!-- Testimonial Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<!-- Review 1 -->
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col justify-between gap-space-md shadow-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface italic">
+              "Show de bola, lugar totalmente agradável com excelentes funcionários. O corte sempre no capricho e atendimento nota 10!"
+            </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-xs">
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center font-bold text-primary">
+              CL
+            </div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface">Carlos Leonardo</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Cliente Fidelidade • Avaliação Google</span>
+</div>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col justify-between gap-space-md shadow-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface italic">
+              "Barbeiro Matheus profissional demais no corte e barba 👏! Ambiente climatizado e cafezinho sempre pronto. Recomendo demais."
+            </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-xs">
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center font-bold text-primary">
+              RA
+            </div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface">Rafael Albuquerque</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Cliente Executivo • Avaliação Google</span>
+</div>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col justify-between gap-space-md shadow-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface italic">
+              "Experiência ótima, atendimento ótimo e meus cortes sempre ficaram impecáveis. Sem atrasos e com estacionamento bem fácil."
+            </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-xs">
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center font-bold text-primary">
+              DM
+            </div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface">Diego Medeiros</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Cliente Semanal • Avaliação Google</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- HOURS & LOCATION SECTION -->
+<section class="w-full bg-surface py-20" id="localizacao">
+<div class="max-w-[1280px] mx-auto px-gutter">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl">
+<!-- Left: Details & Operation Hours -->
+<div class="lg:col-span-6 flex flex-col gap-space-lg">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">Visite Nosso Espaço</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Localização &amp; Horários</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Fácil acesso no bairro Torre com vagas diretas em frente ao estabelecimento para sua conveniência.
+            </p>
+</div>
+<!-- Address Highlight -->
+<div class="p-space-lg rounded-xl bg-surface-container flex items-start gap-space-md shadow-md">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[24px]">location_on</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-title-md text-title-md text-on-surface">Barbearia Filipe Santos</span>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                Avenida Rui Barbosa, 516 - Bairro Torre<br>
+                João Pessoa - PB, CEP 58040-490
+              </p>
+<div class="flex items-center gap-2 mt-2">
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-primary hover:underline" href="https://maps.google.com/?q=Avenida+Rui+Barbosa+516+Torre+Joao+Pessoa" target="_blank">
+<span class="">Abrir com Google Maps</span>
+<span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Schedule Table (Matching Image 12 Data) -->
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col gap-space-sm shadow-md">
+<div class="flex items-center justify-between pb-space-xs">
+<span class="font-title-md text-title-md text-on-surface font-semibold">Horário de Atendimento</span>
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+                Hoje Aberto
+              </span>
+</div>
+<div class="flex flex-col gap-2 font-body-md text-body-md text-on-surface-variant">
+<div class="flex justify-between py-1">
+<span class="">Segunda-Feira</span>
+<span class="text-on-surface font-mono">09:00 - 20:00</span>
+</div>
+<div class="flex justify-between py-1 bg-surface-container-high/40 px-2 rounded">
+<span class="text-primary font-medium">Terça-Feira</span>
+<span class="text-primary font-mono font-medium">09:00 - 20:00</span>
+</div>
+<div class="flex justify-between py-1">
+<span class="">Quarta-Feira</span>
+<span class="text-on-surface font-mono">09:00 - 20:00</span>
+</div>
+<div class="flex justify-between py-1">
+<span class="">Quinta-Feira</span>
+<span class="text-on-surface font-mono">09:00 - 20:00</span>
+</div>
+<div class="flex justify-between py-1">
+<span class="">Sexta-Feira</span>
+<span class="text-on-surface font-mono">09:00 - 20:00</span>
+</div>
+<div class="flex justify-between py-1">
+<span class="">Sábado (Especial)</span>
+<span class="text-on-surface font-mono">07:00 - 19:00</span>
+</div>
+<div class="flex justify-between py-1 text-outline">
+<span class="">Domingo</span>
+<span class="">Fechado</span>
+</div>
+</div>
+</div>
+<!-- Payment Methods & Socials -->
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col gap-space-sm shadow-md">
+<span class="font-title-md text-title-md text-on-surface font-semibold">Formas de Pagamento</span>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 rounded bg-surface-container-high text-on-surface font-label-md text-label-md">Dinheiro</span>
+<span class="px-3 py-1 rounded bg-surface-container-high text-on-surface font-label-md text-label-md">Cartão de Crédito</span>
+<span class="px-3 py-1 rounded bg-surface-container-high text-on-surface font-label-md text-label-md">Cartão de Débito</span>
+<span class="px-3 py-1 rounded bg-primary text-on-primary font-label-md text-label-md font-semibold">PIX Instantâneo</span>
+</div>
+</div>
+</div>
+<!-- Right: Real System Snapshot / Interactive Map View -->
+<div class="lg:col-span-6 flex flex-col gap-space-md">
+<!-- Google Maps Interactive Placeholder Frame -->
+<div class="w-full h-80 rounded-2xl overflow-hidden shadow-2xl relative bg-surface-container-high" data-location="Avenida Rui Barbosa, 516, Torre, João Pessoa - PB, Brazil">
+<div class="absolute inset-0 flex flex-col items-center justify-center p-6 text-center bg-surface-container-lowest/70 backdrop-blur-sm z-10">
+<div class="w-14 h-14 rounded-full bg-primary/20 flex items-center justify-center text-primary mb-3">
+<span class="material-symbols-outlined text-[32px]">map</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface">Av. Rui Barbosa, 516 • Torre</span>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-sm mt-1">
+                Fácil estacionamento, ponto de referência com fachada visível e ambiente executivo.
+              </p>
+<a class="mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary hover:bg-tertiary-fixed text-on-primary font-label-md text-label-md uppercase tracking-wider transition-colors shadow" href="https://maps.google.com/?q=Barbearia+Filipe+Santos+Avenida+Rui+Barbosa+516+Joao+Pessoa" target="_blank">
+<span class="material-symbols-outlined text-[16px]">navigation</span>
+<span class="">Iniciar Rota GPS</span>
+</a>
+</div>
+</div>
+<!-- Schedule Widget Snapshot (Authentic Booking Interface) -->
+<div class="rounded-2xl overflow-hidden bg-surface-container p-space-md shadow-xl flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px]">calendar_month</span>
+<span class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface">Sistema de Agendamento Online</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary">Sem Filas de Espera</span>
+</div>
+<div class="rounded-xl overflow-hidden bg-surface-container-lowest">
+<img alt="Painel de localização e horários de atendimento da Barbearia Filipe Santos" class="w-full h-auto object-contain max-h-72" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGeo77rJQPl86yHMexcyA2AZrKJDIUONY9KwqWNNxY91PMTMbDqznE3lCFwc_4P_sTTzff7iJrhf7L4C4wlo_gr2uGEfDb5dmBeHu32JEoFJS1HewPl08PIbIz7bFja3iWBpXPbAO5Nvxj8GqY3XIK0HISVLswD06kRP0xyGM50hdo5qsLvNGgS5Noo9g7ony-9He5HkzMXwth4NhZSsVHM_MpSNs90lENKa8kRS7cH6-vPCJNHRG0kdC0ml6LPRoGVQ">
+</div>
+<div class="flex items-center justify-between pt- space-xs">
+<span class="font-body-md text-body-md text-on-surface-variant">Reserve sem cadastro prévio via WhatsApp</span>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-primary hover:underline" href="https://wa.me/5583998896913?text=Ol%C3%A1,%20gostaria%20de%20consultar%20os%20hor%C3%A1rios%20dispon%C3%ADveis%20para%20hoje" target="_blank">
+<span class="">Verificar Horários de Hoje</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FINAL CONVERSION HERO BANNER -->
+<section class="w-full bg-surface-container-lowest py-20 relative overflow-hidden">
+<!-- Ambient Gold Halo -->
+<div class="absolute inset-0 bg-gradient-to-r from-primary/10 via-transparent to-primary/10 pointer-events-none"></div>
+<div class="max-w-[1280px] mx-auto px-gutter relative z-10">
+<div class="p-space-xl lg:p-16 rounded-3xl bg-surface-container flex flex-col lg:flex-row items-center justify-between gap-space-xl shadow-2xl">
+<div class="flex flex-col gap-space-sm max-w-xl text-center lg:text-left">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">Sua Imagem Merece o Melhor</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Pronto para elevar seu estilo hoje?</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+            Atendimento pontual, mestres barbeiros certificados e um ambiente planejado para o seu descanso. Entre em contato e assegure seu horário.
+          </p>
+<div class="flex items-center justify-center lg:justify-start gap-space-md pt-space-xs">
+<span class="font-headline-sm text-headline-sm text-primary flex items-center gap-2">
+<span class="material-symbols-outlined text-[24px]">call</span>
+              (83) 99889-6913
+            </span>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-space-md shrink-0">
+<a class="inline-flex items-center justify-center gap-space-sm px-8 py-4 rounded-xl bg-secondary-container hover:bg-secondary text-on-secondary-container font-headline-sm text-headline-sm uppercase tracking-wider shadow-2xl transition-all hover:scale-105 active:scale-100" href="https://wa.me/5583998896913?text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20hor%C3%A1rio%20na%20Barbearia%20Filipe%20Santos" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[26px]">chat</span>
+<span class="">Falar Direto no WhatsApp</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- FLOATING WHATSAPP BUTTON (DESKTOP / MOBILE STICKY CONVERSION) -->
+<aside class="fixed bottom-6 right-6 z-50">
+<a aria-label="Agendar via WhatsApp" class="flex items-center gap-2.5 px-4 py-3 rounded-full bg-secondary-container hover:bg-secondary text-on-secondary-container shadow-2xl transition-transform hover:scale-105 group" href="https://wa.me/5583998896913?text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20hor%C3%A1rio" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[24px]">chat</span>
+<span class="font-label-lg text-label-lg font-semibold pr-1">Agendar Horário</span>
+<span class="w-2.5 h-2.5 rounded-full bg-secondary-fixed animate-ping"></span>
+</a>
+</aside>
+</div></main><footer class="w-full bg-surface-container-lowest text-on-surface-variant"><div class="max-w-[1280px] mx-auto px-gutter py-space-xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl"><div class="flex flex-col gap-space-sm"><div class="flex items-center gap-space-sm"><div class="p-[2px] rounded-full bg-primary"><div class="w-2.5 h-2.5 rounded-full bg-surface-container-lowest"></div></div><span class="font-headline-sm text-headline-sm text-primary uppercase">Filipe Santos</span></div><p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">O ritual definitivo de cuidado masculino no coração de João Pessoa. Elegância sóbria, precisão artesanal e atendimento executivo de padrão superior.</p><div class="flex items-center gap-space-sm mt-space-sm"><a aria-label="Instagram" class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all" href="#"><span class="material-symbols-outlined text-[20px]">photo_camera</span></a><a aria-label="WhatsApp" class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all" href="https://wa.me/5583998896913"><span class="material-symbols-outlined text-[20px]">chat</span></a><a aria-label="Localização" class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all" href="#"><span class="material-symbols-outlined text-[20px]">pin_drop</span></a></div></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-md text-title-md text-on-surface uppercase tracking-wider">Navegação</h3><ul class="flex flex-col gap-space-xs"><li class="py-1"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#inicio">Início</a></li><li class="py-1"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#servicos">Cortes &amp; Barboterapia</a></li><li class="py-1"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#equipe">Mestres Barbeiros</a></li><li class="py-1"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#espaco">Lounge &amp; Charutaria</a></li><li class="py-1"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#avaliacoes">Opinião dos Clientes</a></li></ul></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-md text-title-md text-on-surface uppercase tracking-wider">Localização</h3><p class="font-body-md text-body-md text-on-surface-variant flex items-start gap-space-xs"><span class="material-symbols-outlined text-primary text-[20px] shrink-0 mt-0.5">location_on</span><span class="">Avenida Rui Barbosa, 516<br>Bairro Torre, João Pessoa - PB<br>CEP: 58040-490</span></p><div class="flex items-center gap-space-xs mt-space-xs font-label-md text-label-md text-secondary"><span class="material-symbols-outlined text-[18px]">local_parking</span><span class="">Estacionamento privativo com manobrista</span></div></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-md text-title-md text-on-surface uppercase tracking-wider">Atendimento</h3><p class="font-body-md text-body-md text-on-surface-variant flex items-start gap-space-xs"><span class="material-symbols-outlined text-primary text-[20px] shrink-0 mt-0.5">schedule</span><span class="">Terça a Sábado: 09h às 20h<br>Domingo e Segunda: Fechado</span></p><p class="font-body-md text-body-md text-on-surface-variant flex items-center gap-space-xs mt-space-xs"><span class="material-symbols-outlined text-primary text-[20px] shrink-0">call</span><span class="">(83) 99889-6913</span></p><div class="mt-space-xs"><a class="inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-lg bg-surface-container-high text-primary hover:bg-primary hover:text-on-primary font-label-md text-label-md uppercase tracking-wider transition-colors" href="https://wa.me/5583998896913" target="_blank"><span class="material-symbols-outlined text-[16px]">event_available</span><span class="">Agendar Sessão</span></a></div></div></div><div class="bg-surface-container-low"><div class="max-w-[1280px] mx-auto px-gutter py-space-md flex flex-col md:flex-row items-center justify-between gap-space-sm text-center md:text-left"><p class="font-label-md text-label-md text-on-surface-variant">© 2024 Barbearia Filipe Santos. Todos os direitos reservados. João Pessoa, PB.</p><p class="font-label-md text-label-md text-on-surface-variant">Executive Grooming Experience</p></div></div></footer>
+
+</body></html>
